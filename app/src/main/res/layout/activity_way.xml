@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.my.practice.wayActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="191dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="재활용 분리 배출 요령"
+                android:textColor="#74DF00"
+                android:textSize="38dp"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 종이류 (신문지,전단지,종이박스,노트,책 등)"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="물기에 젖지 않게 묶거나 박스류에 담아서 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 종이팩류 (우유팩,종이컵 등)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="내용물을 비우고 물로 헹군 후 압축하여 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 캔/고철류 (철캔,부탄가스,철사,못,알루미늄 등)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="내용물을 비우고 배출
+플라스틱 뚜껑이 있는 경우 분리하여 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 유리병류 (음료수 병,기타 병류)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="병뚜껑을 제거한 후 내용물을 비우고 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 플라스틱류 (페트병, 플라스틱 용기, 폐스티로폼 등)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="다른 재질로 된 뚜껑을 제거 후 내용물을 비우고
+이물질(테이프 등)을 제거 후 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 비닐류 (과자,라면봉지,일회용 비닐봉지 등)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="과자류는 투명 비닐 봉투에 넣어 배출
+음식물 등 이물질이 묻은 경우 깨끗이 씻어서 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 형광등 (형광등,삼파장 전구 등)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="깨지지 않게 근처 폐형광등 전용수거함에 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 전지류 (건전지,충전지 등)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="근처 전용 수거함에 배출
+전지를 제품과 분리해 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 섬유류 (의류,솜 없는 이불 등)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="의류수거함에 배출
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DF01A5"
+                android:textSize="18dp"
+                android:text="＊ 폐전자제품 (컴퓨터,TV,냉장고,세탁기,밥솥 등)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="대형폐가전 무상방문수거 서비스를 이용해 배출
+" />
+
+ </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
